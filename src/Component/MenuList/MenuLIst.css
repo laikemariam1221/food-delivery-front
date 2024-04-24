@@ -1,0 +1,27 @@
+.menuList{
+    margin: 10px 100px;
+}
+.menuImgList{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.menuItem {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .menuItem.active {
+    background-color: #f0f0f0;
+  }
+  
+  .menuImage {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .menuImage.redBorder {
+    border: 2px solid orangered; /* Border style */
+    border-radius: 50%; /* Add red border for selected image */
+  }
+  

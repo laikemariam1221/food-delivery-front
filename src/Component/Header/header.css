@@ -1,0 +1,104 @@
+.header {
+  height: 100vh; /* Set the height of the header to 100% of the viewport height */
+  margin: 30px 150px 20px 150px; /* Set margin */
+  padding: 50 20px; /* Add space on the left and right sides */
+  background: url("../img/header_img.png") no-repeat; /* Set the background image */
+  background-size: cover; /* Cover the entire header with the background image */
+  display: flex; /* Use flexbox to vertically center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  border-radius: 20px;
+  background-position: center;
+}
+
+.headerContainer {
+  text-align: center; /* Center align text */
+  color: white; /* Set text color to white */
+  justify-content: center;
+}
+
+.firstH1 {
+  font-size: 80px; /* Set font size */
+  margin-bottom: 20px; /* Add margin at the bottom */
+  text-align: left;
+  padding-left: 30px;
+}
+
+.secondH2 {
+  font-size: 20px; /* Set font size */
+  line-height: 1.5; /* Set line height */
+  text-align: left;
+  padding-left: 30px;
+  margin-bottom: 30px; /* Add margin at the bottom */
+}
+
+.headerButton {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start (left) */
+}
+
+.headerButton button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.headerButton button:hover {
+  background-color: orangered;
+}
+
+/* CSS code for header animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(-70px); /* Initial position above */
+    opacity: 0; /* Initially hidden */
+  }
+  to {
+    transform: translateY(0); /* Final position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.firstH1,
+.secondH2 {
+  animation: slideIn 0.7s ease forwards; /* Apply animation to both h1 and h2 */
+}
+@media screen and (max-width: 767px) {
+  .header {
+     /* Remove the margins */
+     margin: 0px;
+    justify-content: flex-start; /* Align content to the left */
+    padding: 20px; /* Add padding */
+    border-radius: 0; /* Remove border radius */
+    height: auto;
+    
+  }
+
+  .headerContainer {
+    text-align: left; /* Align text to the left */
+  }
+
+  .firstH1 {
+    padding-left: 0; /* Remove left padding */
+    font-size: 40px; /* Adjust font size */
+  }
+
+  .secondH2 {
+    padding-left: 0; /* Remove left padding */
+    font-size: 16px; /* Adjust font size */
+    margin-bottom: 20px; /* Adjust margin */
+  }
+
+  .headerButton {
+    justify-content: flex-start; /* Align button to the left */
+    margin-top: 20px; /* Adjust margin */
+  }
+
+  .headerButton button {
+    margin-left: 0; /* Remove left margin */
+  }
+}

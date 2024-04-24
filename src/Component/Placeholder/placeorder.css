@@ -1,0 +1,30 @@
+.place-holder-contaniner {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 80%;
+  gap: 200px;
+}
+.placeorder-div-one div {
+  display: flex;
+  justify-content: space-between;
+}
+.place-holder-contaniner h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.place-holder-contaniner input {
+  margin: 5px;
+}
+.place-holder-contaniner input {
+  padding: 5px;
+}
+.place-holder-contaniner .Email {
+  width: 400px;
+}
+.place-holder-contaniner .street {
+  width: 400px;
+}
+.place-holder-contaniner .phone {
+  width: 400px;
+}

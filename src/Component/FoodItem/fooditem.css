@@ -1,0 +1,98 @@
+.food-desplay-container {
+  margin: 20px 80px 0px 80px;
+}
+.foodlistcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.foodlistcontainer > div {
+  flex: 1 0 25%; /* Each item takes up 25% of the container */
+  box-sizing: border-box; /* Ensure padding and border don't affect width */
+  padding: 10px; /* Adjust as needed */
+}
+.foodimage {
+  text-align: center; /* Center the image */
+}
+
+.foodimage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.addTag {
+  position: relative;
+  top: -100px;
+  right: -220px;
+  cursor: pointer;
+}
+.addminushandler {
+  position: relative;
+  top: -100px;
+  right: -220px;
+  cursor: pointer;
+}
+.add-minus-handler {
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  margin-right: 90px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  position: relative;
+  top: -100px;
+  right: -220px;
+  cursor: pointer;
+}
+.foodlist .price {
+  color: orangered;
+}
+.foodlist-img-name {
+  display: flex;
+  justify-content: space-between;
+}
+.foodlist-container {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Horizontal offset, Vertical offset, Blur radius, Spread radius, Color */
+  border-radius: 10px;
+}
+.foodlist-rating {
+  width: 80px;
+  height: 20px;
+}
+.foodlist {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.add-image {
+  width: 40px;
+  height: 10px;
+  position: relative;
+  bottom: 60px;
+  left: 100px;
+  cursor: pointer;
+}
+.add-minus-value {
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  margin-right: 90px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  position: relative;
+  bottom: 60px;
+  left: 150px;
+  cursor: pointer;
+}
+.add-minus-value img {
+  width: 30px;
+  height: 30px; 
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.add-minus-value p {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 5px;
+}

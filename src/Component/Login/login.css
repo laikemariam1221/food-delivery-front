@@ -1,0 +1,97 @@
+.logincontainer { 
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: fixed; 
+    height: 100%; 
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: auto; 
+    z-index: 99999; 
+  } 
+   
+  .logindivcontainer { 
+    width: 350px; 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  } 
+  .logindivcontainer h1 { 
+    margin-bottom: 20px; 
+    font-size: 30px; 
+  } 
+  form { 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  } 
+  .forminput input { 
+    margin-bottom: 15px; 
+  } 
+  .forminput input { 
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+  } 
+  .button { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 10px; 
+    background-color: orangered; 
+    color: #fff; 
+    border: none; 
+    border-radius: 3px; 
+    cursor: pointer; 
+  } 
+  button.sinupbutton:hover { 
+    background-color: #28a745; /* Green color for signup button on hover */ 
+  } 
+   
+  button.sininbutton:hover { 
+    background-color: #007bff; /* Blue color for login button on hover */ 
+  } 
+  input[type="checkbox"] { 
+    margin-top: 10px; 
+  } 
+   
+  .p { 
+    margin-top: 10px; 
+    cursor: pointer; 
+    color: #007bff; 
+  } 
+   
+  p:hover { 
+    text-decoration: underline; 
+  } 
+   
+  .closebutton { 
+    position: absolute; 
+    padding-left: 280px; 
+  } 
+  .checkboc-container { 
+    display: flex; 
+    align-items: center; 
+  } 
+  .checkboc-container p { 
+    padding-top: 30px; 
+    padding-left: 10px; 
+  } 
+  .last-login-div { 
+    display: flex; 
+    align-items: center; 
+  } 
+  .last-login-div button { 
+    background-color: transparent; /* Set background to transparent */ 
+    color:orangered; /* Set text color */ 
+    border: none; /* Remove border */ 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; /* Remove underline */ 
+    padding-bottom: 5px; 
+    padding-left: 5px; 
+  }

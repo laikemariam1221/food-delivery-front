@@ -1,0 +1,94 @@
+.cart_container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.topic {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart_container img {
+  width: 50px;
+  height: auto;
+}
+.total-cart-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 80%;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+.fee-delivery {
+  display: flex;
+  justify-content: space-between;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-total-cart .cart-total {
+  font-size: 30px;
+}
+.total h2 {
+  font-size: 20px;
+}
+.sub-total-cart div {
+  height: 10px;
+}
+.total {
+  margin-bottom: 20px;
+}
+.sub-total-cart button {
+  font-size: 5px;
+  border: 1px solid black;
+  background: orangered;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  border-radius: 5px;
+  font: inherit;
+  cursor: pointer;
+}
+.sub-total-cart .process {
+  font-size: 13px; /* Set font size to 10px */
+}
+.postal-code-container button {
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+}
+.postal-code-container input {
+  border-radius: 5px;
+  width: 300px;
+  background-color: rgb(226, 218, 207);
+}
+.fooddeplay-button{
+  background: none;
+  font-size: 20px;
+  border: none;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+.fooddeplay-button button{
+  font-size: 30px;
+}
+/* Add more styles as needed */

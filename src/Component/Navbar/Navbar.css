@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  text-decoration: none;
+  padding-top: 30px;
+}
+.container a {
+  text-decoration: none; /* Remove underline decoration */
+  color: rgb(87, 117, 117); /* Change color to your desired color */
+  font-size: 20px;
+}
+.listContainer ul {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: rgb(87, 117, 117);
+  cursor: pointer;
+}
+.listContainer ul li {
+  margin-right: 15px;
+}
+.rightContainerlast {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  height: 5px;
+  margin-bottom: 17px;
+}
+.search-cart-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.active {
+  text-decoration: underline;
+}
+.rightContainerlast img {
+  height: 25px;
+}
+#basketBar {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.basketBar {
+  background-color: orangered;
+}
+.red {
+  background-color: red;
+}
+
+/* Styling for the sign-in button */
+.signInContainer {
+  text-align: center; /* Center align the button within the container */
+}
+
+.signIn {
+  padding: 5px 15px; /* Add padding to the button */
+  margin-bottom: 100px;
+  font-size: 16px; /* Set font size */
+  border-radius: 15px; /* Add border radius */
+  cursor: pointer; /* Add pointer cursor on hover */
+  background: transparent;
+}
+.rightContainerlast {
+  width: 30%;
+  padding-bottom: 25px;
+  padding-right: 35px;
+
+}
+.rightContainerlast {
+  gap: 10px;
+}
+.rightContainerlast .searech {
+padding-top: 5px;
+padding-right: 5px;
+}
+.search-cart-container{
+  padding-left: 120px;
+}
+
+.sinInContainer button{
+  background-color: transparent; /* Set background to transparent */
+  border: 1px solid black; /* Border style: solid, Border width: 2px, Border color: #ccc */
+  border-radius: 15px; 
+  margin-left: 30px;
+  width: 80px;
+}
+
+
+/* Hover effect for the sign-in button */
+.signIn:hover {
+  background-color: orangered; /* Darken the background color on hover */
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    text-decoration: none;
+  }
+
+  .listContainer {
+    display: none;
+  }
+  .container img {
+    width: 120px;
+  }
+  .rightContainerlast img {
+    width: 25px;
+  }
+}
